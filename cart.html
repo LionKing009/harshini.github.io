@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+        <!-- FAVICON -->
+        <link rel="icon" href="./assets/images/logo.png">
+    <!--aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b0cefe48d0.js" crossorigin="anonymous"></script>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- owl carousel -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- FULL-PAGE-WRAPPER -->
+
+    <header class=" details" id="header">
+        <nav class="nav container flex">
+            <a href="index.html" class="logo flex">
+                <img src="./assets/images/logo.png" alt="">
+                <h3>Tea <br> Co.</h3>
+            </a>
+            <div class="navigation flex">
+                <ul class="nav__links" id="navLinks">
+                    <li><a href="index.html" class="nav__item">Home</a></li>
+                    <li><a href="shop.html" class="nav__item">Shop</a></li>
+                    <li><a href="blog.html" class="nav__item">Blog</a></li>
+                    <li><a href="#testimonial" class="nav__item">Testimonial</a></li>
+                    <li><a href="about.html" class="nav__item">About</a></li>
+                    <li><a href="contact.html" class="nav__item">Contact</a></li>
+
+                    <div class="header-icon">
+                        <span class="far fa-heart"></span>
+                        <span class="far fa-user"></span>
+                        <span class="fas fa-shopping-basket"></span>
+                    </div>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="toggle-btn">
+                <span class="fa fa-bars"></span>
+            </div>
+        </nav>
+
+        <!-- scroll-top -->
+        <div class="top-scrolling">
+            <span class="fa fa-arrow-up"></span>
+        </div>
+
+
+        <!-------------shop-title---------- -->
+        <div class="shop-title container flex">
+            <div class="shop-heading">
+                <h1>Your Cart</h1>
+                <span>Home &#62; Your Cart</span>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+<section class="cart-area container">
+    <div class="add-messege">
+        <h4>There are <span>3</span> products in your cart</h4>
+    </div>
+    <div class="cart-section flex">
+            <div class="left">
+                <div class="cart-heading">
+                    <div class="products">
+                        <div class="bin-box">
+                
+                        </div>
+                        <div class="p-view">
+                            <p>Products</p>
+                        </div>
+                        <div class="p-price">
+                            <p>Price</p>
+                        </div>
+                        <div class="p-quantity">
+                            <p>Quantity</p>
+                        </div>
+                        <div class="p-subtotal">
+                            <p>Subtotal</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="products">
+                    <div class="bin-box">
+                        <span class="fas fa-trash-alt"></span>
+                    </div>
+                    <div class="p-view">
+                        <div class="product-img">
+                            <img src="./assets/images/product-1-1.png" alt="">
+                        </div>
+                        <p class="p-text">Seeds of Change Organic</p>
+                        <div class="star">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="p-price">
+                        <p>$55.60</p>
+                    </div>
+                    <div class="p-quantity">
+                        <div class="qunatity-box flex">
+                            <div class="add-value">
+                                <span>&#45;</span>
+                            </div>
+                            <p>1</p>
+                            <div class="add-value">
+                                <span>&#43;</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-subtotal">
+                        <p>$55.60</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="products">
+                    <div class="bin-box">
+                        <span class="fas fa-trash-alt"></span>
+                    </div>
+                    <div class="p-view">
+                        <div class="product-img">
+                            <img src="./assets/images/product-1-1.png" alt="">
+                        </div>
+                        <p class="p-text">Seeds of Change Organic</p>
+                        <div class="star">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="p-price">
+                        <p>$55.60</p>
+                    </div>
+                    <div class="p-quantity">
+                        <div class="qunatity-box flex">
+                            <div class="add-value">
+                                <span>&#45;</span>
+                            </div>
+                            <p>1</p>
+                            <div class="add-value">
+                                <span>&#43;</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-subtotal">
+                        <p>$55.60</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="products">
+                    <div class="bin-box">
+                        <span class="fas fa-trash-alt"></span>
+                    </div>
+                    <div class="p-view">
+                        <div class="product-img">
+                            <img src="./assets/images/product-1-1.png" alt="">
+                        </div>
+                        <p class="p-text">Seeds of Change Organic</p>
+                        <div class="star">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="p-price">
+                        <p>$55.60</p>
+                    </div>
+                    <div class="p-quantity">
+                        <div class="qunatity-box flex">
+                            <div class="add-value">
+                                <span>&#45;</span>
+                            </div>
+                            <p>1</p>
+                            <div class="add-value">
+                                <span>&#43;</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-subtotal">
+                        <p>$55.60</p>
+                    </div>
+                </div>
+            
+                <div class="button-box flex">
+                    <button type="button" class="code-coupon">Coupon code</button>
+                    <button type="button" class="apply-coupon">APPLY COUPON</button>
+                    <button type="button" class="update-coupon">UPDATE CART</button>
+                </div>
+            
+            </div>
+        <div class="right">
+            <h5>Cart totals</h5>
+            <hr>
+            <div class="label flex">
+                <h4>Subtotal</h4>
+                <h4>$60.55</h4>
+            </div>
+
+            <div class="balance-detail flex">
+                <h5>Shipping</h5>
+                    <hr>
+                <div class="products__list">
+                    <form action="#">
+                        <label for="#">Flat rate: $5.00</label>
+                        <input type="radio" name="flat" id="">
+                        <br>
+                        <label for="#">Free shipping:</label>
+                        <input type="radio" name="flat" id="">
+                        <br>
+                        <label for="#">Local pickup:</label>
+                        <input type="radio" name="flat" id="">
+                        <br>
+                        <label for="#">Shiping to AK:</label>
+                        <input type="radio" name="flat" id="">
+                        <br>
+                        <a href="#">Change Address</a>
+                    </form>
+                </div>
+            </div>
+            <div class="label flex">
+                <h4>total</h4>
+                <h4>$60.55</h4>
+            </div>
+            <hr>
+
+            <button type="button" class="apply-coupon cart-button">Proceed to checkout</button>
+
+        </div>
+    </div>    
+</section>
+
+
+
+
+    <!----------------- RELATED PRODUCTS----------------------->
+    <section class="releted-products">
+        <div class="container">
+            <div class="title">
+                <h2>releted products</h1>
+            </div>
+            <div class="releted-product-container flex">
+                <div class="tea__box">
+                    <div class="img__box">
+                        <img src="./assets/images/asset-1-removebg-preview.png" alt="">
+                    </div>
+                    <div class="img__box__content">
+                        <h4>Elaichi Chai</h4>
+                        <p>$18.00 <span>$20.00</span></p>
+            
+                        <div class="img__box__icon flex">
+                            <div class="qunatity-box flex">
+                                <div class="add-value">
+                                    <span>&#45;</span>
+                                </div>
+                                <p>1</p>
+                                <div class="add-value">
+                                    <span>&#43;</span>
+                                </div>
+                                <div class="media-icon">
+                                    <span class="far fa-heart"></span>
+                                    <span class="far fa-eye"></span>
+                                    <span class="fas fa-cart-plus"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tea__box">
+                    <div class="img__box">
+                        <img src="./assets/images/tea-main.png" alt="">
+                    </div>
+                    <div class="img__box__content">
+                        <h4>Elaichi Chai</h4>
+                        <p>$18.00 <span>$20.00</span></p>
+            
+                        <div class="img__box__icon flex">
+                            <div class="qunatity-box flex">
+                                <div class="add-value">
+                                    <span>&#45;</span>
+                                </div>
+                                <p>1</p>
+                                <div class="add-value">
+                                    <span>&#43;</span>
+                                </div>
+                            </div>
+                            <div class="media-icon">
+                                <span class="far fa-heart"></span>
+                                <span class="far fa-eye"></span>
+                                <span class="fas fa-cart-plus"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tea__box">
+                    <div class="img__box">
+                        <img src="./assets/images/asset-1-removebg-preview.png" alt="">
+                    </div>
+                    <div class="img__box__content">
+                        <h4>Elaichi Chai</h4>
+                        <p>$18.00 <span>$20.00</span></p>
+            
+                        <div class="img__box__icon flex">
+                            <div class="qunatity-box flex">
+                                <div class="add-value">
+                                    <span>&#45;</span>
+                                </div>
+                                <p>1</p>
+                                <div class="add-value">
+                                    <span>&#43;</span>
+                                </div>
+                            </div>
+                            <div class="media-icon">
+                                <span class="far fa-heart"></span>
+                                <span class="far fa-eye"></span>
+                                <span class="fas fa-cart-plus"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tea__box">
+                    <div class="img__box">
+                        <img src="./assets/images/tea-main.png" alt="">
+                    </div>
+                    <div class="img__box__content">
+                        <h4>Elaichi Chai</h4>
+                        <p>$18.00 <span>$20.00</span></p>
+            
+                        <div class="img__box__icon flex">
+                            <div class="qunatity-box flex">
+                                <div class="add-value">
+                                    <span>&#45;</span>
+                                </div>
+                                <p>1</p>
+                                <div class="add-value">
+                                    <span>&#43;</span>
+                                </div>
+                            </div>
+                            <div class="media-icon">
+                                <span class="far fa-heart"></span>
+                                <span class="far fa-eye"></span>
+                                <span class="fas fa-cart-plus"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ===========================FOOTER========================== -->
+
+    <footer class="footer">
+        <div class="inner-footer container flex">
+            <div class="box">
+                <div class="logo flex">
+                    <img src="./assets/images/footer-logo.png" alt="">
+                    <h3>Tea <br> CO.</h3>
+                </div>
+                <div class="address">
+                    <p> <span class="fas fa-map-marker-alt"></span> 33, Ved Vihar Bungalows, opp <br>
+                        Divit residency, Naroda</p>
+                    <p><span class="fas fa-phone-alt"></span> +91 7698876324</p>
+                    <p><span class="fas fa-globe-asia"></span> www.teacompany.com</p>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Social Media Links</h3>
+                <div class="social-media">
+                    <span class="fab fa-facebook-square"></span>
+                    <span class="fab fa-instagram"></span>
+                    <span class="fab fa-twitter"></span>
+                    <span class="fab fa-linkedin"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-box container">
+            <p>Copyright 2021. All rights Reserved <span>Tea Company</span></p>
+            <hr>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- FULL PAGE SCCROLLING-------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+        integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
